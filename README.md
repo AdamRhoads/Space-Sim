@@ -1,21 +1,18 @@
-Controls
-General
+Controls:
 
 Switch Body Type: Space
 
 Place Body: Left Click anywhere on the screen
 
-Velocity
-
 Add Forward Velocity: W
 
 Add Backward Velocity: S
 
-Rotation
 
 Rotate Counterclockwise: A
 
 Rotate Clockwise: D
+
 
 
 How It Works

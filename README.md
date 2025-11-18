@@ -20,7 +20,7 @@ How It Works
 
 The simulator uses a simplified form of Newton’s Law of Universal Gravitation:
 
-F = G * (m1 * m2) / r^2
+F = G * (m1 * m2) / r²
 
 To keep things simple (and the numbers clean), I just set
 

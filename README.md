@@ -15,6 +15,7 @@ Rotate Clockwise: D
 
 
 
+
 How It Works
 
 The simulator uses a simplified form of Newton’s Law of Universal Gravitation:

@@ -1,25 +1,34 @@
-This is just an orbit sim I made. I was bored and it was summer.
+Controls
+General
+
+Switch Body Type: Space
+
+Place Body: Left Click anywhere on the screen
+
+Velocity
+
+Add Forward Velocity: W
+
+Add Backward Velocity: S
+
+Rotation
+
+Rotate Counterclockwise: A
+
+Rotate Clockwise: D
 
 
-Controls:
+How It Works
 
-  General:
-    Switch Body Type: Space
-    Place Body: Left Click anywhere on the screen
-    
-  Velocity:
-    Add Forward Velocity: W
-    Add Backward Velocity: S
-    
-  Rotation:
-    Rotate Counterclockwise: A
-    Rotate Clockwise: D
+The simulator uses a simplified form of Newton’s Law of Universal Gravitation:
 
+        m₁ · m₂
+F = G · ——————
+          r²
 
-How it works:
+To keep things simple (and the numbers clean), I just set
 
-          m1 * m2
-F = G *  ---------
-            r^2
+G = 1
 
-(and just make G = 1, so all of the numbers are nice since 6.673X10^(-11) N m^2 / kg^2 is not the prettiest)
+instead of using the real constant
+6.673 × 10⁻¹¹ N·m²/kg²
